@@ -1,0 +1,11 @@
+= Fedora ELN project =
+
+== Summary ==
+
+ELN is a new buildroot and compose process for Fedora that will take Fedora Rawhide dist-git sources and
+emulate a Red Hat Enterprise Linux compose. Feedback from this build, compose and integration testing will be
+provided to Fedora packagers so that they can see the potential impact of their changes on RHEL development.
+
+ELN will allow us to explore new ideas like a higher baseline for CPU architectures in a way that will not
+disrupt the rest of Fedora. It will also aid us in future-proofing some of the spec file conditionals today
+that assume RHEL <= 8.

@@ -45,10 +45,17 @@ It is published via Fedora Docs:
 $ sudo dnf install podman
 ```
 
-To build and preview the site, run:
+### Build
 
 ```
-$ ./build.sh && ./preview.sh
+$ ./build.sh
+
+```
+
+### Run the preview
+
+```
+$ ./preview.sh
 ```
 
 The result will be available at http://localhost:8080

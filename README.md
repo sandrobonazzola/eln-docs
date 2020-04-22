@@ -59,3 +59,6 @@ $ ./preview.sh
 ```
 
 The result will be available at http://localhost:8080
+
+When using Linux, it is also possible to pass `--refresh` argument to automatically
+rebuild the documentation on source change.

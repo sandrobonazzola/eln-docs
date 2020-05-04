@@ -8,12 +8,13 @@ instances (production and staging) and therefore two places with the latest ELN 
 |===
 |Fedora ELN compose | Environment | Link
 
-|Latest periodic | production | Not available yet.
+|Latest periodic | production | https://odcs.fedoraproject.org/composes/production/latest-Fedora-ELN/
 |Latest manually generated | production | https://odcs.fedoraproject.org/composes/test/latest-Fedora-ELN/
-|Latest periodic | staging | Not available yet.
 |Latest manually generated | staging | https://odcs.stg.fedoraproject.org/composes/test/latest-Fedora-ELN/
 
 |===
+
+Periodic compose is generated every hour.
 
 
 == Compose configuration files ==

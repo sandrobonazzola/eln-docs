@@ -1,7 +1,11 @@
 * xref:overview.adoc[Overview]
 
 * Docs
+
 ** xref:content_set.adoc[Content Set]
+** xref:buildroot.adoc[Buildroot]
+
 * Infrastructure
 ** xref:compose.adoc[Compose]
+
 * xref:faq.adoc[FAQ]

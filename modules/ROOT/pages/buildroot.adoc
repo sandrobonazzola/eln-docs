@@ -1,0 +1,49 @@
+= Buildroot configuration =
+
+== Versioning
+
+In ELN project we work on the buildroot configuration rather than the content of Fedora packages. As ELN
+buildroot configuration may change frequently and independently from Fedora releases, it has its own
+versioning.
+
+This approach allows us to rebuild RPM packages on buildroot changes without changing the spec file of a
+package in dist-git.
+
+ELN Buildroot version is written as `XY`.
+
+The `X` version refers to major changes in the ELN buildroot (generally those events that necessitate a
+mass-rebuild). The `Y` version refers to changes in the buildroot configuration that are compatible and will
+apply to future builds in the ELN buildroot.
+
+We start this number at `100`, where `1` is the X version and `00` is the Y version.
+
+== Distribution-related Macro Definitions
+
+In ELN buildroot we build Fedora Rawhide packages in the EL-like setting. Thus, following macro values are set
+by default:
+
+.Macros values
+[options="header"]
+|==============================================================================================================
+|Macro         |Value         | Description
+| `%\{fedora}` | `%\{nil}`    | Unset
+| `%\{rhel}`   | `9`          | Integer value one higher than the most recently released major version of RHEL
+| `%\{eln}`    | `XY`         | Version of the eln buildroot
+| `%\{dist}    | `.eln%\{eln}`| eln-disttag, for example `.eln101`
+|==============================================================================================================
+
+
+We set these values in Koji for the eln-build tag as follows:
+
+```
+koji edit-tag \
+        -x rpm.macro.fedora=%{nil} \
+	-x rpm.macro.rhel=9 \
+	-x rpm.macro.eln=101 \
+	-x 'rpm.macro.dist=%{!?distprefix0:%{?distprefix}}%{expand:%{lua:for i=0,9999 do print("%{?distprefix" .. i .."}") end}}.eln%{eln}%{?with_bootstrap:~bootstrap}' \
+	eln-build
+```
+
+== Compiler flags and other tweaks
+
+There are no changes in compiler flags yet.

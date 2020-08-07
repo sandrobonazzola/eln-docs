@@ -47,3 +47,8 @@ koji edit-tag \
 == Compiler flags and other tweaks
 
 There are no changes in compiler flags yet.
+
+== Testing environment
+
+An unsupported `mock` configuration file that can be used for testing builds and checking out the
+ELN environment can be downloaded link:{attachmentsdir}/eln-x86_64.cfg[here].

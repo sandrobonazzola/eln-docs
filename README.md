@@ -18,8 +18,10 @@ It is published via Fedora Docs:
         |-- assets
         |   `-- images ............... 6.
         |       `-- pizza.png
-        |-- nav.adoc ................. 7.
-        `-- pages .................... 8.
+        |   `-- attachments .......... 7.
+        |       `-- carryout-menu.pdf
+        |-- nav.adoc ................. 8.
+        `-- pages .................... 9.
             |-- architecture.adoc
             |-- community.adoc
             |-- faq.adoc
@@ -34,8 +36,9 @@ It is published via Fedora Docs:
 4. A definition file for the build script.
 5. A "root module of this documentation component".
 6. **Images** to be used on any page.
-7. **Menu definition.** Also defines the hierarchy of all the pages.
-8. **Pages with the actual content.** They can be also organised into subdirectories if desired.
+7. **Downloadable attachments** to be used on any page.
+8. **Menu definition.** Also defines the hierarchy of all the pages.
+9. **Pages with the actual content.** They can be also organised into subdirectories if desired.
 
 ## Local preview
 

@@ -48,7 +48,24 @@ koji edit-tag \
 
 There are no changes in compiler flags yet.
 
-== Testing environment
+[#building]
+== Building with the ELN buildroot
 
-An unsupported `mock` configuration file that can be used for testing builds and checking out the
-ELN environment can be downloaded link:{attachmentsdir}/eln-x86_64.cfg[here].
+Simply specify `eln` as the target when kicking off a build:
+
+```
+fedpkg build [--scratch] --target eln [--srpm [SRPM]] [...]
+```
+
+`mock` can also be used to perform builds locally.
+
+A supported `mock` configuration should be link:https://github.com/rpm-software-management/mock/pull/615[available soon] as part of the `mock-core-configs` package. This will enable the ELN environment to be used locally by running (for arch `x86_64`):
+
+```
+mock -r fedora-eln-x86_64 ...
+```
+
+[NOTE]
+====
+Until the official `mock` configuration becomes available, an unsupported configuration file can be downloaded link:{attachmentsdir}/fedora-eln-x86_64.cfg[here].
+====

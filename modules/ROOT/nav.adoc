@@ -4,6 +4,7 @@
 
 ** xref:content_set.adoc[Content Set]
 ** xref:buildroot.adoc[Buildroot]
+** xref:ftbfs.adoc[Resolving ELN build failures]
 
 * Infrastructure
 ** xref:compose.adoc[Compose]

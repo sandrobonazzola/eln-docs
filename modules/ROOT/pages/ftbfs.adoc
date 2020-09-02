@@ -1,31 +1,145 @@
-= Handling ELN build failures =
+= Resolving ELN build failures =
 
-[NOTE]
-====
-This is currently a rough placeholder.
-Additional details will be provided soon.
-====
+This page provides information to assist package maintainers remediate
+ELN build failures.
 
-This page provides information to assist package maintainers remediate ELN build failures.
 
 == Background
 
-Note what’s different with the xref:buildroot.adoc[buildroot] for ELN,
-as well as details about xref:buildroot.adoc#building[how to build] using the ELN buildroot.
+ELN is a buildroot and compose process for Fedora that takes Fedora Rawhide
+https://src.fedoraproject.org/[dist-git] sources and emulates a Red Hat
+Enterprise Linux compose.
 
-A list of packages that currently need to build for ELN can be found at
-https://tiny.distro.builders/view\--view-eln.html
+ELN sources come from the Rawhide (master) branch in dist-git.
+There is _not_ a separate branch for ELN.
+
+Note what’s different with the xref:buildroot.adoc[buildroot] for ELN,
+as well as details about xref:buildroot.adoc#building[how to build] using
+the ELN buildroot.
+
+The set of packages that currently need to build for ELN can be found at
+https://tiny.distro.builders/view\--view-eln.html.
+The expanded package set including build dependencies can be found at
+https://tiny.distro.builders/view\--view-eln-and-buildroot.html.
+
 
 == Fixing ELN build failures
 
-=== Guidelines
-To be provided.
+=== If the package doesn't build for Rawhide, fix that first!
 
-=== Examples
-To be provided.
+IMPORTANT: If the package doesn't build for Rawhide, fix that first!
 
-=== FAQ
-To be provided.
+If the package doesn't build for Rawhide, fix that first!
+
+Is that message load and clear enough?
+Getting the package build fixed for Rawhide may very well be all that's
+needed to fix it for ELN as well.
+
+
+=== Accounting for differences between Fedora and RHEL
+
+Most build failures can be fixed by modifying the SPEC file.
+However, such modifications should be kept to a minimum.
+
+If your package needs to institute different code paths or package
+dependencies between Fedora and RHEL, it is important to only account
+for the difference for the releases where it is required.
+
+Generally, this means limiting the difference in old versions of Fedora,
+while letting the next version of RHEL adopt the Fedora code path.
+
+As one common scenario where a difference is required, RHEL often ends
+up with a smaller set of dependencies than Fedora.
+The `%\{fedora}` and `%\{rhel}` macros, when defined, contain the major
+release versions per distro.
+
+Consider this SPEC file snippet:
+
+```
+%if 0%{?fedora} >= 29 || 0%{?rhel} >= 9
+BuildRequires: SomePackage
+%endif
+```
+
+This conditional will be met when `%\{rhel}` is defined as 9 or greater.
+It is also shareable between earlier and later versions of Fedora and RHEL.
+Often it is better to use `<` to limit behaviors to RHEL 8 and earlier:
+
+```
+%if 0%{?fedora} < 32 && 0%{?rhel} < 9)
+  %global rhel8orearlier 1
+%else
+  %global rhel9orlater 1
+%endif
+```
+
+The best spec files alter default behavior only for released versions of
+Fedora or RHEL, making the default policy the one applicable to the
+current versions of Fedora or RHEL.
+
+As a last resort, there is an `%\{eln}` macro available.
+Using it should be avoided if at all possible.
+However, if you find you do need to use it you should only check if it
+is set to a non-zero value.
+For example:
+
+```
+%if 0%{?eln}
+  # something specific to ELN only
+  ...
+%endif
+
+%if 0%{?fedora} || 0%{?eln}
+  # something specific to Fedora or ELN
+  ...
+%endif
+
+%if 0%{?rhel} && ! 0%{?eln}
+  # something specific to RHEL only, not ELN.
+  ...
+%endif
+```
+
+
+=== Python 2 deprecation
+
+Just as recent Fedora releases have deprecated Python 2, so have RHEL 9 and ELN.
+There has been a recurring pattern with ELN build failures that can be
+resolved by adjusting the SPEC conditionals to disable Python 2.
+For example, if you have something like this:
+
+```
+%if 0%{?fedora} >= 30
+%global python2_enabled 0
+%else
+%global python2_enabled 1
+%endif
+```
+
+Change the conditional to:
+
+```
+%if 0%{?fedora} >= 30 || 0%{?rhel} >= 9
+```
+
+
+=== Architecture dependencies
+
+ELN is built for the same set of architectures as Rawhide.
+However, the kernel package in ELN no longer produces a full
+kernel for any 32-bit architecture.
+Notably, there is no `kernel` package for architecture `armv7hl`,
+only the `kernel-headers` package.
+To help address this difference, there is a new `%\{kernel_arches}` macro
+available that can be used in the SPEC file. For example:
+
+```
+%ifarch %{kernel_arches}
+BuildRequires: kernel
+%else
+BuildRequires: kernel-headers
+%fi
+```
 
 
 == References

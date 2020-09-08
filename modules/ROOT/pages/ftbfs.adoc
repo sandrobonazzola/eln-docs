@@ -6,12 +6,7 @@ ELN build failures.
 
 == Background
 
-ELN is a buildroot and compose process for Fedora that takes Fedora Rawhide
-https://src.fedoraproject.org/[dist-git] sources and emulates a Red Hat
-Enterprise Linux compose.
-
-ELN sources come from the Rawhide (master) branch in dist-git.
-There is _not_ a separate branch for ELN.
+For general information about ELN, visit the xref:index.adoc[overview].
 
 Note what’s different with the xref:buildroot.adoc[buildroot] for ELN,
 as well as details about xref:buildroot.adoc#building[how to build] using

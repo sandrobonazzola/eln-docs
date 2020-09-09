@@ -1,5 +1,6 @@
 * xref:overview.adoc[Overview]
-* xref:status.adoc[Status]
+* xref:sig.adoc[SIG]
+* xref:faq.adoc[FAQ]
 
 * Docs
 
@@ -9,4 +10,7 @@
 
 * Infrastructure
 ** xref:compose.adoc[Compose]
+
+* xref:status.adoc[Status]
+
 

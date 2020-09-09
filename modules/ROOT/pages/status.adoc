@@ -1,0 +1,11 @@
+= ELN Status
+
+== ELN Builds
+
+The table shows the discrepancy between Fedora Rawhide and ELN builds.
+
+Source: https://osci-jenkins-1.ci.fedoraproject.org/job/eln-periodic/lastSuccessfulBuild/artifact/status.html
+
+++++
+<iframe src="https://osci-jenkins-1.ci.fedoraproject.org/job/eln-periodic/lastSuccessfulBuild/artifact/status.html" style="height:400px;width:100%;"></iframe>
+++++

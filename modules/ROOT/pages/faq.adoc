@@ -1,3 +1,7 @@
 = Frequently Asked Questions =
 
-* Why ELN?
+Why ELN?::
+
+    The Fedora distribution is, among other things, an https://docs.fedoraproject.org/en-US/quick-docs/fedora-and-red-hat-enterprise-linux/[upstream] for
+    Red Hat Enterprise Linux (RHEL). By adjusting buildroot and assorted
+    configurations, ELN allows Fedora contributors who work on RHEL and other similarly targeted downstreams to judge the state of upstream from their perspective. The benefit for the Fedora distribution is that contributors who work on both upstream and downstream stay more continuously connected to the state of Fedora -- especially, but not exclusively, Rawhide.

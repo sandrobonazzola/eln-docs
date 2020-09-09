@@ -57,7 +57,7 @@ the ``toplevel_url`` which points to the directory with generated compose.
 [NOTE]
 ====
 
-When using ODCS version <= 0.2.39, the older syntax needs to be used to generate Fedora ELN compose:
+When using ODCS version &le; 0.2.39, the older syntax needs to be used to generate Fedora ELN compose:
 
 ```
 odcs --staging create raw_config eln#eln
@@ -67,7 +67,7 @@ odcs --staging create raw_config eln#eln
 [NOTE]
 ====
 
-When using ODCS version >= 0.2.46, it is possible to watch the real-time compose logs:
+When using ODCS version &ge; 0.2.46, it is possible to watch the real-time compose logs:
 
 ```
 $ odcs --watch create-raw-config eln eln

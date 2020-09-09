@@ -1,9 +1,96 @@
 = Fedora ELN project
 
-ELN is a new buildroot and compose process for Fedora that will take Fedora Rawhide dist-git sources and
-emulate a Red Hat Enterprise Linux compose. Feedback from this build, compose and integration testing will be
-provided to Fedora packagers so that they can see the potential impact of their changes on RHEL development.
+ELN is a new buildroot and compose process for Fedora that will take Fedora
+Rawhide dist-git sources and emulate a Red Hat Enterprise Linux
+compose. Feedback from this build, compose and integration testing will be
+provided to Fedora packagers so that they can see the potential impact of their
+changes on RHEL development.
 
-ELN will allow us to explore new ideas like a higher baseline for CPU architectures in a way that will not
-disrupt the rest of Fedora. It will also aid us in future-proofing some of the spec file conditionals today
-that assume RHEL <= 8.
+ELN will allow us to explore new ideas like a higher baseline for CPU
+architectures in a way that will not disrupt the rest of Fedora. It will also
+aid us in future-proofing some of the spec file conditionals today that assume
+RHEL <= 8.
+
+== Purpose
+
+* Create infrastructure and tooling, which allows experiments with the build
+  process of Fedora distribution.
+
+* Use this infrastructure to build Fedora packages in the way which resembles
+  the CentOS and RHEL process and provide feedback loop for Fedora maintainers.
+
+* Some other features (like CPU update) can be incorporated into the same build
+  process if they can be tested in parallel. New feature requests will be
+  approved by ELN SIG under general supervision of FESCo and Fedora Council.
+
+== Name
+
+Originally the project was named EL Niño.
+
+The name of the project was suggested by Stephen Gallagher. It contains
+"enterprisy" reference but also highlights the fact that it is a place for
+permanent work in progress for experimenting and development, rather than a
+finished product.
+
+But the interpretation of the name evolved, and now you can think about it as
+*Enterprise Linux Next* if you like.
+
+=== Explanation of the puns
+
+* The "EL" is a reference to the distribution tag for RHEL/CentOS: "EL" stands
+  for Enterprise Linux.
+
+* The Niño portion is the Spanish word for "child (male)". The implication of
+  this reference is that the project should always represent the "immature"
+  version of what will "grow up" into Enterprise Linux.
+
+* Collectively, "El Niño" is also the name of a type of weather pattern that
+  occurs every three or four years and often brings storms with it. The meaning
+  here should therefore be fairly obvious!
+
+== Scope
+
+While originally we named this project as "Alternative buildroot", its scope
+includes the entire process of how the Fedora sources are built and composed
+into the shippable artifact.
+
+This includes:
+
+* buildroot configuration, rpm macro and compile flags,
+
+* comps files and the compose content,
+
+* compose itself and the pipeline which builds it.
+
+== Stakeholders
+
+Who benefits from the ELN project:
+
+* Fedora Infrastructure
+** As we are going to try and test new infrastructure for composes.
+
+* Fedora Minimization
+** As we are going to modify the compose content according to minimization goals.
+
+* CentOS Stream, EPEL and RHEL
+** As we are going to try to build Fedora packages into the multi-repo structure
+   of the compose similar to the one from CentOS and RHEL.
+
+* Fedora Community
+** The feedback pipelines build for the project will allow downstream developers
+   to open up their work and bring it closer to Fedora.
+** 
+** The tooling developed for this project will allow development of the changes
+   in Fedora Infrastructure without blocking the regular Fedora packaging and
+   release process.
+
+== Links
+
+* The first scoped down version of the change:
+  https://fedoraproject.org/wiki/Changes/Additional_buildroot_to_test_x86-64_micro-architecture_update
+
+* Change discussion:
+  https://lists.fedoraproject.org/archives/list/devel@lists.fedoraproject.org/thread/IFBHS2WKKPKJH6H54OX4DV3U7A4XYOPU/#LUWYM7CBG5LVB2MFPO3R3JQEBFCPYPLK
+
+* The generic point of view on the alternative buildroot as a development tool:
+  https://lists.fedoraproject.org/archives/list/devel@lists.fedoraproject.org/thread/3Z5SMF6CPL3MK2CNYPUW4OZYMA6TZJBN/#MKXPMQOZNLECPPWRM6UBUMR2WHVG5DL6

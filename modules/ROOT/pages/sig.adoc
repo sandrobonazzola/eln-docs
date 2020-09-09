@@ -1,0 +1,45 @@
+= ELN Special Interest Group
+
+ELN SIG is a Fedora Special Interest Group which is responsible for the ELN
+project and its infrastructure.
+
+== Responsibilities
+
+* Own the scope and configuration of the `eln` disttag and buildroot (see
+  xref:buildroot.adoc[ELN Buildroot]).
+
+** As the project evolves the scope might change. There might be additional
+   features which will be included into the tag or excluded from it.
+
+* Define ELN content set
+
+* Own the configuration of the compose (see xref:compose.adoc[ELN Compose]).
+
+* Maintain infrastructure required to build packages and composes.
+
+* Track the status of package builds and composes. Work with Fedora package
+  maintainers to resolve the issues.
+
+* Keep track of the eln-conditionals in RPM spec files.
+
+* Investigate compose failures
+
+* Own buildroot configuration
+
+== Communication
+
+* Mailing list: Add *[ELN]* to the subject of the mail to https://lists.fedoraproject.org/archives/list/devel@lists.fedoraproject.org/[devel@ mailing list]
+
+* IRC: TBA
+
+=== Issue tracker
+
+* https://github.com/fedora-eln/eln
+
+=== Meetings
+
+TBA
+
+== How to Join
+
+TBA

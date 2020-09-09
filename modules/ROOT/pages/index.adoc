@@ -9,3 +9,6 @@ provided to Fedora packagers so that they can see the potential impact of their 
 ELN will allow us to explore new ideas like a higher baseline for CPU architectures in a way that will not
 disrupt the rest of Fedora. It will also aid us in future-proofing some of the spec file conditionals today
 that assume RHEL &leq; 8.
+
+ELN sources come from the Rawhide (master) branch in dist-git.
+There is _not_ a separate branch for ELN.

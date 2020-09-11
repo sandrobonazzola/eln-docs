@@ -51,7 +51,7 @@ There are no changes in compiler flags yet.
 [#building]
 == Building with the ELN buildroot
 
-Simply specify `eln` as the target when kicking off a build:
+Simply specify `eln` as the target when kicking off a `koji` build using `fedpkg`:
 
 ```
 fedpkg build [--scratch] --target eln [--srpm [SRPM]] [...]

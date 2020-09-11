@@ -8,9 +8,7 @@ ELN build failures.
 
 For general information about ELN, visit the xref:index.adoc[overview].
 
-Note what’s different with the xref:buildroot.adoc[buildroot] for ELN,
-as well as details about xref:buildroot.adoc#building[how to build] using
-the ELN buildroot.
+Note what’s different with the xref:buildroot.adoc[buildroot] for ELN.
 
 The set of packages that currently need to build for ELN can be found at
 https://tiny.distro.builders/view\--view-eln.html.
@@ -20,6 +18,13 @@ https://tiny.distro.builders/view\--view-eln-and-buildroot.html.
 There is also an xref:status.adoc#_eln_builds[ELN Build Status page] showing
 which packages are currently failing to build for ELN, as well as those
 that have a discrepancy between Fedora Rawhide and ELN builds.
+
+
+== Debugging ELN build failures
+
+Check the details about xref:buildroot.adoc#building[how to build]
+with `koji` and `mock` using the ELN buildroot.
+
 
 == Fixing ELN build failures
 

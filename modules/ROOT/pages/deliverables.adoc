@@ -1,0 +1,24 @@
+= Fedora ELN deliverables
+
+WARNING: Fedora ELN is a development environment. It is not intended for production use.
+
+
+== Compose
+
+The latest production compose of Fedora ELN packages is available at https://odcs.fedoraproject.org/composes/production/latest-Fedora-ELN/
+
+See also xref:compose.adoc[Compose].
+
+== Container image
+
+As a part of the compose, we build also container images which are then published to Quay.io image registry under the name `quay.io/fedoraci/fedora:eln-x86_64`.
+
+To run Fedora ELN container use:
+
+```
+$ podman run -it quay.io/fedoraci/fedora:eln-x86_64
+```
+
+== Mock environment
+
+To build custom packages for ELN you can setup Mock environment as described at xref:buildroot.adoc[Buildroot].

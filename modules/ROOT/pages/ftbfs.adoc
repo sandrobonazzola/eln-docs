@@ -143,9 +143,3 @@ BuildRequires: kernel
 BuildRequires: kernel-headers
 %fi
 ```
-
-
-== References
-
-* https://fedoraproject.org/wiki/ELN
-* https://fedoraproject.org/wiki/SIGs/ELN

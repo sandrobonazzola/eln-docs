@@ -68,5 +68,5 @@ mock -r fedora-eln-x86_64 ...
 
 [NOTE]
 ====
-If the official `mock` configuration is not yet available, an unsupported configuration file can be downloaded link:{attachmentsdir}/fedora-eln-x86_64.cfg[here].
+If the official `mock` configuration is not yet available, an unsupported configuration file can be downloaded link:{attachmentsdir}/fedora-eln-x86_64.cfg[here]. See link:https://github.com/rpm-software-management/mock/pull/649[mock#649] 
 ====

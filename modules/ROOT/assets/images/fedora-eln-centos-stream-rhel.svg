@@ -1,0 +1,892 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1920"
+   height="1080"
+   viewBox="0 0 508 285.75"
+   version="1.1"
+   id="svg8"
+   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)"
+   sodipodi:docname="fedora-eln-centos-stream-rhel.svg"
+   inkscape:export-filename="/home/bookwar/fedora-eln-centos-rhel.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96">
+  <defs
+     id="defs2">
+    <marker
+       style="overflow:visible"
+       id="marker6400"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="DotM"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.4) translate(7.4, 1)"
+         style="fill-rule:evenodd;stroke:#800080;stroke-width:1pt;stroke-opacity:1;fill:#800080;fill-opacity:1"
+         d="M -2.5,-1.0 C -2.5,1.7600000 -4.7400000,4.0 -7.5,4.0 C -10.260000,4.0 -12.5,1.7600000 -12.5,-1.0 C -12.5,-3.7600000 -10.260000,-6.0 -7.5,-6.0 C -4.7400000,-6.0 -2.5,-3.7600000 -2.5,-1.0 z "
+         id="path6398" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="DotM"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="DotM"
+       inkscape:isstock="true"
+       inkscape:collect="always">
+      <path
+         transform="scale(0.4) translate(7.4, 1)"
+         style="fill-rule:evenodd;stroke:#800080;stroke-width:1pt;stroke-opacity:1;fill:#800080;fill-opacity:1"
+         d="M -2.5,-1.0 C -2.5,1.7600000 -4.7400000,4.0 -7.5,4.0 C -10.260000,4.0 -12.5,1.7600000 -12.5,-1.0 C -12.5,-3.7600000 -10.260000,-6.0 -7.5,-6.0 C -4.7400000,-6.0 -2.5,-3.7600000 -2.5,-1.0 z "
+         id="path6036" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker1926"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="SquareM"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.4)"
+         style="fill-rule:evenodd;stroke:#3c6eb4;stroke-width:1pt;stroke-opacity:1;fill:#3c6eb4;fill-opacity:1"
+         d="M -5.0,-5.0 L -5.0,5.0 L 5.0,5.0 L 5.0,-5.0 L -5.0,-5.0 z "
+         id="path1924" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker1880"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="SquareM"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.4)"
+         style="fill-rule:evenodd;stroke:#000080;stroke-width:1pt;stroke-opacity:1;fill:#000080;fill-opacity:1"
+         d="M -5.0,-5.0 L -5.0,5.0 L 5.0,5.0 L 5.0,-5.0 L -5.0,-5.0 z "
+         id="path1878" />
+    </marker>
+    <inkscape:path-effect
+       effect="bspline"
+       id="path-effect1628"
+       is_visible="true"
+       lpeversion="1"
+       weight="33.333333"
+       steps="2"
+       helper_size="0"
+       apply_no_weight="true"
+       apply_with_weight="true"
+       only_selected="false" />
+    <inkscape:path-effect
+       effect="bspline"
+       id="path-effect1455"
+       is_visible="true"
+       lpeversion="1"
+       weight="33.333333"
+       steps="2"
+       helper_size="0"
+       apply_no_weight="true"
+       apply_with_weight="true"
+       only_selected="false" />
+    <inkscape:path-effect
+       effect="bspline"
+       id="path-effect1218"
+       is_visible="true"
+       lpeversion="1"
+       weight="33.333333"
+       steps="2"
+       helper_size="0"
+       apply_no_weight="true"
+       apply_with_weight="true"
+       only_selected="false" />
+    <marker
+       style="overflow:visible;"
+       id="marker1939"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Mend"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.4) rotate(180) translate(10,0)"
+         style="fill-rule:evenodd;stroke:#3c6eb4;stroke-width:1pt;stroke-opacity:1;fill:#3c6eb4;fill-opacity:1"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path1937" />
+    </marker>
+    <marker
+       style="overflow:visible;"
+       id="marker1905"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Mend"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.4) rotate(180) translate(10,0)"
+         style="fill-rule:evenodd;stroke:#800080;stroke-width:1pt;stroke-opacity:1;fill:#800080;fill-opacity:1"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path1903" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker1807"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="SquareM"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.4)"
+         style="fill-rule:evenodd;stroke:#000080;stroke-width:1pt;stroke-opacity:1;fill:#000080;fill-opacity:1"
+         d="M -5.0,-5.0 L -5.0,5.0 L 5.0,5.0 L 5.0,-5.0 L -5.0,-5.0 z "
+         id="path1805" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker1797"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="SquareM"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.4)"
+         style="fill-rule:evenodd;stroke:#000080;stroke-width:1pt;stroke-opacity:1;fill:#000080;fill-opacity:1"
+         d="M -5.0,-5.0 L -5.0,5.0 L 5.0,5.0 L 5.0,-5.0 L -5.0,-5.0 z "
+         id="path1795" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker1787"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="SquareM"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.4)"
+         style="fill-rule:evenodd;stroke:#000080;stroke-width:1pt;stroke-opacity:1;fill:#000080;fill-opacity:1"
+         d="M -5.0,-5.0 L -5.0,5.0 L 5.0,5.0 L 5.0,-5.0 L -5.0,-5.0 z "
+         id="path1785" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="SquareM"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="SquareM"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.4)"
+         style="fill-rule:evenodd;stroke:#000080;stroke-width:1pt;stroke-opacity:1;fill:#000080;fill-opacity:1"
+         d="M -5.0,-5.0 L -5.0,5.0 L 5.0,5.0 L 5.0,-5.0 L -5.0,-5.0 z "
+         id="path1470" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="SquareL"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="SquareL"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.8)"
+         style="fill-rule:evenodd;stroke:#000080;stroke-width:1pt;stroke-opacity:1;fill:#000080;fill-opacity:1"
+         d="M -5.0,-5.0 L -5.0,5.0 L 5.0,5.0 L 5.0,-5.0 L -5.0,-5.0 z "
+         id="path1467" />
+    </marker>
+    <marker
+       style="overflow:visible;"
+       id="Arrow1Mend"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Mend"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.4) rotate(180) translate(10,0)"
+         style="fill-rule:evenodd;stroke:#800080;stroke-width:1pt;stroke-opacity:1;fill:#800080;fill-opacity:1"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path1406" />
+    </marker>
+    <marker
+       style="overflow:visible;"
+       id="Arrow1Lend"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.8) rotate(180) translate(12.5,0)"
+         style="fill-rule:evenodd;stroke:#000080;stroke-width:1pt;stroke-opacity:1;fill:#000080;fill-opacity:1"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path1400" />
+    </marker>
+    <inkscape:path-effect
+       effect="bspline"
+       id="path-effect1369"
+       is_visible="true"
+       lpeversion="1"
+       weight="33.333333"
+       steps="2"
+       helper_size="0"
+       apply_no_weight="true"
+       apply_with_weight="true"
+       only_selected="false" />
+    <inkscape:path-effect
+       effect="bspline"
+       id="path-effect1367"
+       is_visible="true"
+       lpeversion="1"
+       weight="33.333333"
+       steps="2"
+       helper_size="0"
+       apply_no_weight="true"
+       apply_with_weight="true"
+       only_selected="false" />
+    <inkscape:path-effect
+       effect="bspline"
+       id="path-effect1365"
+       is_visible="true"
+       lpeversion="1"
+       weight="33.333333"
+       steps="2"
+       helper_size="0"
+       apply_no_weight="true"
+       apply_with_weight="true"
+       only_selected="false" />
+    <inkscape:path-effect
+       effect="bspline"
+       id="path-effect1363"
+       is_visible="true"
+       lpeversion="1"
+       weight="33.333333"
+       steps="2"
+       helper_size="0"
+       apply_no_weight="true"
+       apply_with_weight="true"
+       only_selected="false" />
+    <inkscape:path-effect
+       effect="bspline"
+       id="path-effect1223"
+       is_visible="true"
+       lpeversion="1"
+       weight="33.333333"
+       steps="2"
+       helper_size="0"
+       apply_no_weight="true"
+       apply_with_weight="true"
+       only_selected="false" />
+    <inkscape:path-effect
+       effect="bspline"
+       id="path-effect1153"
+       is_visible="true"
+       lpeversion="1"
+       weight="33.333333"
+       steps="2"
+       helper_size="0"
+       apply_no_weight="true"
+       apply_with_weight="true"
+       only_selected="false" />
+    <inkscape:path-effect
+       effect="bspline"
+       id="path-effect1074"
+       is_visible="true"
+       lpeversion="1"
+       weight="33.333333"
+       steps="2"
+       helper_size="0"
+       apply_no_weight="true"
+       apply_with_weight="true"
+       only_selected="false" />
+    <inkscape:path-effect
+       effect="bspline"
+       id="path-effect996"
+       is_visible="true"
+       lpeversion="1"
+       weight="33.333333"
+       steps="2"
+       helper_size="0"
+       apply_no_weight="true"
+       apply_with_weight="true"
+       only_selected="false" />
+    <inkscape:path-effect
+       effect="bspline"
+       id="path-effect977"
+       is_visible="true"
+       lpeversion="1"
+       weight="33.333333"
+       steps="2"
+       helper_size="0"
+       apply_no_weight="true"
+       apply_with_weight="true"
+       only_selected="false" />
+    <inkscape:path-effect
+       effect="bspline"
+       id="path-effect975"
+       is_visible="true"
+       lpeversion="1"
+       weight="33.333333"
+       steps="2"
+       helper_size="0"
+       apply_no_weight="true"
+       apply_with_weight="true"
+       only_selected="false" />
+    <inkscape:path-effect
+       effect="bspline"
+       id="path-effect973"
+       is_visible="true"
+       lpeversion="1"
+       weight="33.333333"
+       steps="2"
+       helper_size="0"
+       apply_no_weight="true"
+       apply_with_weight="true"
+       only_selected="false" />
+    <inkscape:path-effect
+       effect="bspline"
+       id="path-effect936"
+       is_visible="true"
+       lpeversion="1"
+       weight="33.333333"
+       steps="2"
+       helper_size="0"
+       apply_no_weight="true"
+       apply_with_weight="true"
+       only_selected="false" />
+    <inkscape:path-effect
+       effect="bspline"
+       id="path-effect917"
+       is_visible="true"
+       lpeversion="1"
+       weight="33.333333"
+       steps="2"
+       helper_size="0"
+       apply_no_weight="true"
+       apply_with_weight="true"
+       only_selected="false" />
+    <inkscape:path-effect
+       effect="bspline"
+       id="path-effect913"
+       is_visible="true"
+       lpeversion="1"
+       weight="33.333333"
+       steps="2"
+       helper_size="0"
+       apply_no_weight="true"
+       apply_with_weight="true"
+       only_selected="false" />
+    <inkscape:path-effect
+       effect="bspline"
+       id="path-effect909"
+       is_visible="true"
+       lpeversion="1"
+       weight="33.333333"
+       steps="2"
+       helper_size="0"
+       apply_no_weight="true"
+       apply_with_weight="true"
+       only_selected="false" />
+    <inkscape:path-effect
+       effect="bspline"
+       id="path-effect890"
+       is_visible="true"
+       lpeversion="1"
+       weight="33.333333"
+       steps="2"
+       helper_size="0"
+       apply_no_weight="true"
+       apply_with_weight="true"
+       only_selected="false" />
+    <inkscape:path-effect
+       effect="bspline"
+       id="path-effect871"
+       is_visible="true"
+       lpeversion="1"
+       weight="33.333333"
+       steps="2"
+       helper_size="0"
+       apply_no_weight="true"
+       apply_with_weight="true"
+       only_selected="false" />
+    <marker
+       style="overflow:visible"
+       id="marker1939-3"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Mend"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         style="fill:#000080;fill-opacity:1;fill-rule:evenodd;stroke:#000080;stroke-width:1pt;stroke-opacity:1"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path1937-6" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="SquareM-6"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="SquareM"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.4)"
+         style="fill:#800080;fill-opacity:1;fill-rule:evenodd;stroke:#800080;stroke-width:1pt;stroke-opacity:1"
+         d="M -5,-5 V 5 H 5 V -5 Z"
+         id="path1470-2" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="SquareM-1"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="SquareM"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.4)"
+         style="fill:#000080;fill-opacity:1;fill-rule:evenodd;stroke:#000080;stroke-width:1pt;stroke-opacity:1"
+         d="M -5,-5 V 5 H 5 V -5 Z"
+         id="path1470-27" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="SquareM-9"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="SquareM"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.4)"
+         style="fill:#000080;fill-opacity:1;fill-rule:evenodd;stroke:#000080;stroke-width:1pt;stroke-opacity:1"
+         d="M -5,-5 V 5 H 5 V -5 Z"
+         id="path1470-3" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker1926-0"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="SquareM"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.4)"
+         style="fill:#3c6eb4;fill-opacity:1;fill-rule:evenodd;stroke:#3c6eb4;stroke-width:1pt;stroke-opacity:1"
+         d="M -5,-5 V 5 H 5 V -5 Z"
+         id="path1924-6" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker1926-0-6"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="SquareM"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.4)"
+         style="fill:#3c6eb4;fill-opacity:1;fill-rule:evenodd;stroke:#3c6eb4;stroke-width:1pt;stroke-opacity:1"
+         d="M -5,-5 V 5 H 5 V -5 Z"
+         id="path1924-6-1" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker1926-0-7"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="SquareM"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.4)"
+         style="fill:#3c6eb4;fill-opacity:1;fill-rule:evenodd;stroke:#3c6eb4;stroke-width:1pt;stroke-opacity:1"
+         d="M -5,-5 V 5 H 5 V -5 Z"
+         id="path1924-6-9" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker1926-0-0"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="SquareM"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.4)"
+         style="fill:#3c6eb4;fill-opacity:1;fill-rule:evenodd;stroke:#3c6eb4;stroke-width:1pt;stroke-opacity:1"
+         d="M -5,-5 V 5 H 5 V -5 Z"
+         id="path1924-6-2" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker1926-0-75"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="SquareM"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.4)"
+         style="fill:#3c6eb4;fill-opacity:1;fill-rule:evenodd;stroke:#3c6eb4;stroke-width:1pt;stroke-opacity:1"
+         d="M -5,-5 V 5 H 5 V -5 Z"
+         id="path1924-6-92" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker1926-03"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="SquareM"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.4)"
+         style="fill:#3c6eb4;fill-opacity:1;fill-rule:evenodd;stroke:#3c6eb4;stroke-width:1pt;stroke-opacity:1"
+         d="M -5,-5 V 5 H 5 V -5 Z"
+         id="path1924-0" />
+    </marker>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="1"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.49497475"
+     inkscape:cx="617.62668"
+     inkscape:cy="591.02062"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     inkscape:document-rotation="0"
+     showgrid="false"
+     units="px"
+     inkscape:window-width="1920"
+     inkscape:window-height="1016"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Base"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       style="fill:#3c6eb4;fill-opacity:1;stroke:#3c6eb4;stroke-width:0.684942;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker1939)"
+       d="M 81.304464,33.545495 V 247.9874"
+       id="path833"
+       sodipodi:nodetypes="cc" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.13253px;line-height:1.25;font-family:'Red Hat Text';-inkscape-font-specification:'Red Hat Text';letter-spacing:0px;word-spacing:0px;fill:#3c6eb4;fill-opacity:1;stroke:none;stroke-width:0.228314;"
+       x="112.69404"
+       y="59.267265"
+       id="text1010"><tspan
+         sodipodi:role="line"
+         id="tspan1008"
+         x="112.69404"
+         y="59.267265"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Red Hat Text';-inkscape-font-specification:'Red Hat Text';fill:#3c6eb4;stroke-width:0.228314;fill-opacity:1;">Fedora N</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.13253px;line-height:1.25;font-family:'Red Hat Text';-inkscape-font-specification:'Red Hat Text';letter-spacing:0px;word-spacing:0px;fill:#3c6eb4;fill-opacity:1;stroke:none;stroke-width:0.228314"
+       x="40.872971"
+       y="237.02304"
+       id="text1010-1"><tspan
+         sodipodi:role="line"
+         id="tspan1008-2"
+         x="40.872971"
+         y="237.02304"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Red Hat Text';-inkscape-font-specification:'Red Hat Text';fill:#3c6eb4;fill-opacity:1;stroke-width:0.228314">Fedora</tspan><tspan
+         sodipodi:role="line"
+         x="40.872971"
+         y="248.43871"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Red Hat Text';-inkscape-font-specification:'Red Hat Text';fill:#3c6eb4;fill-opacity:1;stroke-width:0.228314"
+         id="tspan221">Rawhide</tspan></text>
+    <path
+       style="fill:none;stroke:#800080;stroke-width:0.684942;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Mend)"
+       d="m 149.05761,70.57426 c 103.71516,0.09361 207.42986,0.187227 311.14432,0.28084"
+       id="path911-3"
+       inkscape:path-effect="#path-effect936"
+       inkscape:original-d="m 149.05761,70.57426 c 103.71516,0.0939 207.42986,0.18752 311.14432,0.28084"
+       sodipodi:nodetypes="cc" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.13253px;line-height:1.25;font-family:'Red Hat Text';-inkscape-font-specification:'Red Hat Text';letter-spacing:0px;word-spacing:0px;fill:#aa0000;fill-opacity:1;stroke:none;stroke-width:0.228314"
+       x="233.63071"
+       y="101.71719"
+       id="text1010-7"><tspan
+         sodipodi:role="line"
+         id="tspan1008-0"
+         x="233.63071"
+         y="101.71719"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Red Hat Text';-inkscape-font-specification:'Red Hat Text';fill:#aa0000;stroke-width:0.228314">RHEL X.Y</tspan></text>
+    <g
+       id="g1158"
+       transform="matrix(0.86291913,0,0,0.86291913,58.76141,0.53629943)">
+      <path
+         style="fill:none;stroke:#aa0000;stroke-width:0.79375;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 54.351794,85.825856 c 136.953636,0 273.907016,0 410.860116,0"
+         id="path911"
+         inkscape:path-effect="#path-effect913"
+         inkscape:original-d="m 54.351794,85.825856 c 136.953636,3.39e-4 273.907016,2.7e-4 410.860116,0"
+         sodipodi:nodetypes="cc" />
+      <path
+         style="fill:none;stroke:#aa0000;stroke-width:0.79375;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 154.56716,85.825901 c 14.63946,0 29.27865,0 36.59811,5.696465 7.31947,5.696465 7.31947,17.088674 7.31947,28.480854"
+         id="path915"
+         inkscape:path-effect="#path-effect917"
+         inkscape:original-d="m 154.56716,85.825901 c 14.63946,2.6e-4 29.27865,2.6e-4 43.91758,0 2.7e-4,11.39293 2.7e-4,22.785139 0,34.177319" />
+      <path
+         style="fill:none;stroke:#aa0000;stroke-width:0.79375;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 290.13774,85.825901 c 14.63946,0 29.27865,0 36.59811,5.696433 7.31947,5.696434 7.31947,17.088626 7.31947,28.480816"
+         id="path915-9"
+         inkscape:path-effect="#path-effect1074"
+         inkscape:original-d="m 290.13774,85.825901 c 14.63946,2.6e-4 29.27865,2.6e-4 43.91758,0 2.6e-4,11.392867 2.6e-4,22.785059 0,34.177249" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.13253px;line-height:1.25;font-family:'Red Hat Text';-inkscape-font-specification:'Red Hat Text';letter-spacing:0px;word-spacing:0px;fill:#aa0000;fill-opacity:1;stroke:none;stroke-width:0.228314"
+       x="350.61728"
+       y="102.19532"
+       id="text1010-7-3"><tspan
+         sodipodi:role="line"
+         id="tspan1008-0-6"
+         x="350.61728"
+         y="102.19532"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Red Hat Text';-inkscape-font-specification:'Red Hat Text';fill:#aa0000;stroke-width:0.228314">RHEL X.Y+1</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.13253px;line-height:1.25;font-family:'Red Hat Text';-inkscape-font-specification:'Red Hat Text';letter-spacing:0px;word-spacing:0px;fill:#aa0000;fill-opacity:1;stroke:none;stroke-width:0.228314"
+       x="428.84976"
+       y="59.187943"
+       id="text940-0"><tspan
+         sodipodi:role="line"
+         id="tspan938-6"
+         x="428.84976"
+         y="59.187943"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Red Hat Text';-inkscape-font-specification:'Red Hat Text';fill:#aa0000;stroke-width:0.228314">RHEL X</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.13253px;line-height:1.25;font-family:'Red Hat Text';-inkscape-font-specification:'Red Hat Text';letter-spacing:0px;word-spacing:0px;fill:#800080;fill-opacity:1;stroke:none;stroke-width:0.228314"
+       x="388.00922"
+       y="48.827332"
+       id="text944-2"><tspan
+         sodipodi:role="line"
+         id="tspan942-6"
+         x="388.00922"
+         y="48.827332"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Red Hat Text';-inkscape-font-specification:'Red Hat Text';fill:#800080;stroke-width:0.228314">CentOS Stream X</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.24814px;line-height:1.25;font-family:'Red Hat Text';-inkscape-font-specification:'Red Hat Text';letter-spacing:0px;word-spacing:0px;fill:#3c6eb4;fill-opacity:1;stroke:none;stroke-width:0.228314;"
+       x="115.31128"
+       y="96.74115"
+       id="text1010-0"><tspan
+         sodipodi:role="line"
+         id="tspan1008-23"
+         x="115.31128"
+         y="96.74115"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.24813px;font-family:'Red Hat Text';-inkscape-font-specification:'Red Hat Text';fill:#3c6eb4;stroke-width:0.228314;fill-opacity:1;">Fedora N+1</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.13253px;line-height:1.25;font-family:'Red Hat Text';-inkscape-font-specification:'Red Hat Text';letter-spacing:0px;word-spacing:0px;fill:#3c6eb4;fill-opacity:1;stroke:none;stroke-width:0.228314;"
+       x="112.69404"
+       y="185.54587"
+       id="text1010-0-7-2"><tspan
+         sodipodi:role="line"
+         id="tspan1008-23-5-2"
+         x="112.69404"
+         y="185.54587"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Red Hat Text';-inkscape-font-specification:'Red Hat Text';fill:#3c6eb4;stroke-width:0.228314;fill-opacity:1;">Fedora N + ...</tspan></text>
+    <path
+       style="fill:none;stroke:#800080;stroke-width:0.684942;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker1905)"
+       d="m 149.05761,196.21594 c 103.71516,0 207.42986,0 311.14432,0"
+       id="path911-3-9"
+       inkscape:path-effect="#path-effect1363"
+       inkscape:original-d="m 149.05761,196.21594 c 103.71516,2.9e-4 207.42986,2.9e-4 311.14432,0"
+       sodipodi:nodetypes="cc" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.13253px;line-height:1.25;font-family:'Red Hat Text';-inkscape-font-specification:'Red Hat Text';letter-spacing:0px;word-spacing:0px;fill:#aa0000;fill-opacity:1;stroke:none;stroke-width:0.228314"
+       x="233.63071"
+       y="227.07843"
+       id="text1010-7-7"><tspan
+         sodipodi:role="line"
+         id="tspan1008-0-3"
+         x="233.63071"
+         y="227.07843"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Red Hat Text';-inkscape-font-specification:'Red Hat Text';fill:#aa0000;stroke-width:0.228314">RHEL X+1.Y</tspan></text>
+    <g
+       id="g1158-6"
+       transform="matrix(0.86291913,0,0,0.86291913,58.76141,125.89712)">
+      <path
+         style="fill:none;stroke:#aa0000;stroke-width:0.79375;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 54.351794,85.825856 c 136.953636,0 273.907016,0 410.860116,0"
+         id="path911-1"
+         inkscape:path-effect="#path-effect1365"
+         inkscape:original-d="m 54.351794,85.825856 c 136.953636,2.7e-4 273.907016,2.7e-4 410.860116,0" />
+      <path
+         style="fill:none;stroke:#aa0000;stroke-width:0.79375;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 154.56716,85.825901 c 14.63946,0 29.27865,0 36.59811,5.696465 7.31947,5.696465 7.31947,17.088674 7.31947,28.480854"
+         id="path915-2"
+         inkscape:path-effect="#path-effect1367"
+         inkscape:original-d="m 154.56716,85.825901 c 14.63946,2.6e-4 29.27865,2.6e-4 43.91758,0 2.7e-4,11.39293 2.7e-4,22.785139 0,34.177319" />
+      <path
+         style="fill:none;stroke:#aa0000;stroke-width:0.79375;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 290.13774,85.825901 c 14.63946,0 29.27865,0 36.59811,5.696433 7.31947,5.696434 7.31947,17.088626 7.31947,28.480816"
+         id="path915-9-9"
+         inkscape:path-effect="#path-effect1369"
+         inkscape:original-d="m 290.13774,85.825901 c 14.63946,2.6e-4 29.27865,2.6e-4 43.91758,0 2.6e-4,11.392867 2.6e-4,22.785059 0,34.177249" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.13253px;line-height:1.25;font-family:'Red Hat Text';-inkscape-font-specification:'Red Hat Text';letter-spacing:0px;word-spacing:0px;fill:#aa0000;fill-opacity:1;stroke:none;stroke-width:0.228314"
+       x="350.61728"
+       y="227.55655"
+       id="text1010-7-3-3"><tspan
+         sodipodi:role="line"
+         id="tspan1008-0-6-1"
+         x="350.61728"
+         y="227.55655"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Red Hat Text';-inkscape-font-specification:'Red Hat Text';fill:#aa0000;stroke-width:0.228314">RHEL X+1.Y+1</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.13253px;line-height:1.25;font-family:'Red Hat Text';-inkscape-font-specification:'Red Hat Text';letter-spacing:0px;word-spacing:0px;fill:#aa0000;fill-opacity:1;stroke:none;stroke-width:0.228314"
+       x="422.33832"
+       y="184.54924"
+       id="text940-0-9"><tspan
+         sodipodi:role="line"
+         id="tspan938-6-4"
+         x="422.33832"
+         y="184.54924"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Red Hat Text';-inkscape-font-specification:'Red Hat Text';fill:#aa0000;stroke-width:0.228314">RHEL X+1</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.13253px;line-height:1.25;font-family:'Red Hat Text';-inkscape-font-specification:'Red Hat Text';letter-spacing:0px;word-spacing:0px;fill:#800080;fill-opacity:1;stroke:none;stroke-width:0.228314"
+       x="381.49774"
+       y="174.18863"
+       id="text944-2-7"><tspan
+         sodipodi:role="line"
+         id="tspan942-6-8"
+         x="381.49774"
+         y="174.18863"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Red Hat Text';-inkscape-font-specification:'Red Hat Text';fill:#800080;stroke-width:0.228314">CentOS Stream X+1</tspan></text>
+    <path
+       style="fill:none;stroke:#000080;stroke-width:1.00542;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:1.00542, 1.00542;stroke-dashoffset:0;stroke-opacity:1"
+       d="M 86.749392,33.545823 V 247.9874"
+       id="path833-7"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;stroke:#800080;stroke-width:0.79375;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.79375,2.38125;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#DotM)"
+       d="M 148.93116,70.57426 H 86.749392"
+       id="path1738"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:#3c6eb4;fill-opacity:1;stroke:#3c6eb4;stroke-width:0.685049;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#marker1926)"
+       d="M 149.05761,67.114247 H 81.304464"
+       id="path1752"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:#3c6eb4;fill-opacity:1;stroke:#3c6eb4;stroke-width:0.292881;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#marker1926-0)"
+       d="M 148.93781,102.03394 H 81.304464"
+       id="path1752-2"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:#3c6eb4;fill-opacity:1;stroke:#3c6eb4;stroke-width:0.292881;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#marker1926-0-6)"
+       d="M 148.93781,143.53678 H 81.304464"
+       id="path1752-2-8"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:#3c6eb4;fill-opacity:1;stroke:#3c6eb4;stroke-width:0.292881;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#marker1926-0-7)"
+       d="M 148.93781,129.7025 H 81.304464"
+       id="path1752-2-2"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:#3c6eb4;fill-opacity:1;stroke:#3c6eb4;stroke-width:0.292881;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#marker1926-0-0)"
+       d="M 148.9378,157.37107 H 81.304464"
+       id="path1752-2-3"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:#3c6eb4;fill-opacity:1;stroke:#3c6eb4;stroke-width:0.292881;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#marker1926-0-75)"
+       d="M 148.93781,115.86822 H 81.304464"
+       id="path1752-2-28"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;stroke:#800080;stroke-width:0.79375;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.79375, 2.38125000000000009;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#marker6400)"
+       d="M 149.1201,196.37432 H 86.749392"
+       id="path1738-4"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:#3c6eb4;fill-opacity:1;stroke:#3c6eb4;stroke-width:0.685049;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#marker1926-03)"
+       d="M 149.05761,192.9143 H 81.304464"
+       id="path1752-4"
+       sodipodi:nodetypes="cc" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.7px;line-height:1.25;font-family:'Red Hat Text';-inkscape-font-specification:'Red Hat Text';fill:#000080;fill-opacity:1;stroke:none;stroke-width:0.292881;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       x="89.242493"
+       y="248.52089"
+       id="text3820"><tspan
+         sodipodi:role="line"
+         id="tspan3818"
+         x="89.242493"
+         y="248.52089"
+         style="font-size:12.7px;fill:#000080;fill-opacity:1;stroke:none;stroke-width:0.292881">ELN</tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="ELN"
+     sodipodi:insensitive="true"
+     style="display:none">
+    <path
+       style="fill:none;stroke:#0000ff;stroke-width:0.206254;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.206254, 0.412508;stroke-dashoffset:0;stroke-opacity:1"
+       d="M 88.735563,40.875624 V 234.59824"
+       id="path833-6" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.40009px;line-height:1.25;font-family:'PT Sans';-inkscape-font-specification:'PT Sans';letter-spacing:0px;word-spacing:0px;fill:#000080;fill-opacity:1;stroke:none;stroke-width:0.206254"
+       x="73.651802"
+       y="224.7775"
+       id="text1010-1-4"><tspan
+         sodipodi:role="line"
+         id="tspan1008-2-5"
+         x="73.651802"
+         y="224.7775"
+         style="font-size:4.40009px;fill:#000080;stroke-width:0.206254">Fedora</tspan><tspan
+         sodipodi:role="line"
+         x="73.651802"
+         y="230.2776"
+         style="font-size:4.40009px;fill:#000080;stroke-width:0.206254"
+         id="tspan2025">ELN</tspan></text>
+  </g>
+</svg>

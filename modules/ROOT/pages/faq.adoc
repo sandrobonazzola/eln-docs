@@ -5,3 +5,17 @@ Why ELN?::
     The Fedora distribution is, among other things, an https://docs.fedoraproject.org/en-US/quick-docs/fedora-and-red-hat-enterprise-linux/[upstream] for
     Red Hat Enterprise Linux (RHEL). By adjusting buildroot and assorted
     configurations, ELN allows Fedora contributors who work on RHEL and other similarly targeted downstreams to judge the state of upstream from their perspective. The benefit for the Fedora distribution is that contributors who work on both upstream and downstream stay more continuously connected to the state of Fedora -- especially, but not exclusively, Rawhide.
+
+What is the role of ELN with respect to CentOS Stream?::
+
+     ELN is a continuous rebuild of Fedora Rawhide sources. Once in a while a
+     certain snapshot of the ELN is used to bootstrap the new CentOS Stream for
+     the new major RHEL release. There is no continuous synce between ELN and
+     ant version of the CentOS Stream. Bootstrap activity happens only once for
+     each CentOS Stream version. See the picture:
+
+
+image::ROOT:fedora-eln-centos-stream-rhel.png[]
+
+     
+

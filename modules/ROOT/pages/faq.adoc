@@ -18,4 +18,36 @@ What is the role of ELN with respect to CentOS Stream?::
 image::ROOT:fedora-eln-centos-stream-rhel.png[]
 
      
+What is the differences between Rawhide and ELN?::
 
+    For the majority of packages, there is little or no difference between Rawhide and 
+    ELN packages.  They are the same versions, usually built on the same libraries.  But
+    there are some buildroot differences in global macros that can cause build differences.
+    
+    Note: Many packages have %if fedora / rhel conditions that cause Rawhide and ELN packages
+    to differ.  Listing all of those differences is beyond the scope of this document.
+    
+Buildroot differences as of 10 November 2021::
+
+|===
+|Item | Rawhide | ELN
+
+| rpm macro variables | |
+| %\{fedora} | 36 | unset
+| %\{rhel} | unset | 10
+| %\{eln} (The %\{eln} variable is not tied to any RHEL or Fedora release.  It can bump whenever needed.) | unset | 113
+| %\{dist} | fc%\{fedora} | eln%\{eln}
+| Arch Differences  | | 
+| armv7hl  | - | No armv7hl builds
+| aarch64  | - | -
+| i686  | - | -
+| ppc64le  | -mcpu=power8 -mtune=power8 | -mcpu=power9 -mtune=power9
+| s390x  | -march=zEC12 -mtune=z13 | -march=z14 -mtune=z15
+| x86_64  | - | -march=x86-64-v2
+|===
+
+
+When should I use the rpm macro %\{eln}?::
+
+    Never.  If you think you need to, file a ticket on the 
+    https://github.com/fedora-eln/eln/issues/new/choose[issue tracker].

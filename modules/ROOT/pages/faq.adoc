@@ -18,7 +18,7 @@ What is the role of ELN with respect to CentOS Stream?::
 image::ROOT:fedora-eln-centos-stream-rhel.png[]
 
      
-What is the differences between Rawhide and ELN?::
+What are the differences between Rawhide and ELN?::
 
     For the majority of packages, there is little or no difference between Rawhide and 
     ELN packages.  They are the same versions, usually built on the same libraries.  But

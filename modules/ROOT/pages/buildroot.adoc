@@ -64,10 +64,10 @@ The above options are from redhat-rpm-config-200-1
 [#building]
 == Building with the ELN buildroot
 
-Simply specify `eln` as the target when kicking off a `koji` build using `fedpkg`:
+Simply specify `eln` as the release when kicking off a `koji` build using `fedpkg`:
 
 ```
-fedpkg build [--scratch] --target eln [--srpm [SRPM]] [...]
+fedpkg --release eln build [--scratch] [--srpm [SRPM]] [...]
 ```
 
 `mock` can also be used to perform builds locally.

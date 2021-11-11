@@ -28,7 +28,7 @@ by default:
 |Macro         |Value         | Description
 | `%\{fedora}` | `%\{nil}`    | Unset
 | `%\{rhel}`   | `9`          | Integer value one higher than the most recently released major version of RHEL
-| `%\{eln}`    | `XY`         | Version of the eln buildroot
+| `%\{eln}`    | `XY`         | Version of the eln buildroot. Not tied to any RHEL or Fedora release.
 | `%\{dist}`   | `.eln%\{eln}`| eln-disttag, for example `.eln101`
 |==============================================================================================================
 
@@ -46,15 +46,28 @@ koji edit-tag \
 
 == Compiler flags and other tweaks
 
-There are no changes in compiler flags yet.
+.Compiler Flags
+[options="header"]
+|==============================================================================================================
+| Arch         | Rawhide                      | ELN
+| aarch64      | -                            | -
+| i686         | -                            | -
+| ppc64le      | -                            | -
+| s390x        | `-march=zEC12 -mtune=z13`    | `-march=z14 -mtune=z15`
+| x86_64       | -                            | `-march=x86-64-v2`
+|==============================================================================================================
+
+The compiler flag tweaks can be found in /usr/lib/rpm/redhat/macros 
+The above options are from redhat-rpm-config-200-1
+
 
 [#building]
 == Building with the ELN buildroot
 
-Simply specify `eln` as the target when kicking off a `koji` build using `fedpkg`:
+Simply specify `eln` as the release when kicking off a `koji` build using `fedpkg`:
 
 ```
-fedpkg build [--scratch] --target eln [--srpm [SRPM]] [...]
+fedpkg --release eln build [--scratch] [--srpm [SRPM]] [...]
 ```
 
 `mock` can also be used to perform builds locally.

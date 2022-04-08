@@ -24,8 +24,8 @@ The workloads go in the config directory.
 
 Once the workloads have been merged, Content Resolver works through
 all the dependencies of the workload, subtracts those packages that are
-already in ELN, and displays it in it's 
-https://tiny.distro.builders/view--view-eln-extras.html[ELN Extras view]
+already in ELN, and displays it in its
+link:++https://tiny.distro.builders/view--view-eln-extras.html++[ELN Extras view].
 
 After Content Resolver has worked it work, the ELN build process takes that
 list and adds it to the ELN Extras build list.

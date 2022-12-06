@@ -9,7 +9,7 @@ providing a bootstrapping mechanism for EPEL. It will be far easier
 and quicker to get a compose of EPEL N+1 out the door if the initial
 packages have already been built for ELN-Extras.
 
-NOTE: **You** are reponsible when your package fails to build on ELN
+NOTE: **You** are responsible when your package fails to build on ELN
 Extras.  Remember to check your packages on
 http://distrobuildsync-eln-ops.apps.stream.rdu2.redhat.com/status[the
 ELN Status Page].  ELN Extras packages get rebuilt much more frequently

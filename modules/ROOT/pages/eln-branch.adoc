@@ -63,7 +63,7 @@ After your branch has been created, remember that the ELN branch is your
 responsibility.  Do not create the branch, build it once, and then never
 touch the branch again.
 
-*If you decide that you no longer need the ELN branch, you must tell the
-ELN SIG.* The ELN SIG will need to change configurations as well as retire
-the branch properly.
+*If you decide that you no longer need the ELN branch  Do not retire the branch.
+You must tell the ELN SIG.* The ELN SIG will need to change configurations as
+well as retire the branch properly.
 

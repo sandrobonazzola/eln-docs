@@ -60,10 +60,10 @@ as a co-maintaine through https://src.fedoraproject.org/rpms/<package>/adduser
 == Step 3: Maintain Branch
 
 After your branch has been created, remember that the ELN branch is your
-responsibility.  Do you create the branch, build it once, and then leave
-the branch to rot.
+responsibility.  Do not create the branch, build it once, and then never
+touch the branch again.
 
 *If you decide that you no longer need the ELN branch, you must tell the
-ELN SIG before retiring the branch.* The ELN SIG will need to change
-configurations so that ELN starts to use the rawhide branch again.
+ELN SIG.* The ELN SIG will need to change configurations as well as retire
+the branch properly.
 

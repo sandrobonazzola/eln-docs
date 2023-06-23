@@ -1,0 +1,69 @@
+= ELN Branches
+
+Whenever possible, ELN work should be done in the Fedora rawhide branches.
+But sometimes ELN work needs to be done in an Fedora eln branch.  Here are
+the steps for making that happen.
+
+== Step 1: Request Permission
+
+To prevent a large amount of unmaintained ELN branches, the ELN SIG must
+approve each request for a branch.
+
+To request permission, create an https://github.com/fedora-eln/eln/issues[ELN Issue].
+
+Be sure to include why you need an eln branch, as well as who will be
+maintaining the eln branch.
+
+== Step 2: Create Branch
+
+=== You ARE the Fedora maintainer
+
+If you are a Fedora maintainer of the package needing a branch, then
+the next step if fairly simple.
+
+....
+fedpkg request-branch eln --sl rawhide:2099-12-01 --repo <package>
+....
+
+=== You ARE NOT the Fedora maintainer
+
+If you are not a Fedora maintainer for the package then you need to ask
+one of the Fedora maintainers to create an ELN branch.
+
+If you want to follow the formal route for requesting a branch, then
+open a bugzilla ticket for the package.
+
+[NOTE]
+.Bugzilla fields for an ELN branch request (alternative)
+====
+* Classification: Fedora
+* Product: Fedora
+* Component: <package>
+* Version: rawhide
+* Summary: Please branch <package> in eln
+====
+
+Clear out Description and put
+
+....
+Please branch <package> in eln
+
+fedpkg request-branch eln --sl rawhide:2099-12-01 --repo <package>
+
+I will be maintaining the eln branch.
+
+If you do not think you will be able to do this in a timely manner
+and/or would like me to be a co-maintainer, please add me (FAS <your FAS Id>)
+as a co-maintaine through https://src.fedoraproject.org/rpms/<package>/adduser
+....
+
+== Step 3: Maintain Branch
+
+After your branch has been created, remember that the ELN branch is your
+responsibility.  Do you create the branch, build it once, and then leave
+the branch to rot.
+
+*If you decide that you no longer need the ELN branch, you must tell the
+ELN SIG before retiring the branch.* The ELN SIG will need to change
+configurations so that ELN starts to use the rawhide branch again.
+

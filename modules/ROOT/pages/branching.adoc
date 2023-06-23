@@ -42,3 +42,9 @@ koji untag-build eln fedora-repos-35-0.2
 == RHEL Branching ==
 
 RHEL Branching happens every 3 years, when RHEL branches for the next release.  Example:  When RHEL is branched to RHEL 10.
+
+=== Change rpm.macro.rhel ===
+
+rpm.macro.rhel needs to be updated to be the next RHEL release.
+
+You can see the current setting on the https://koji.fedoraproject.org/koji/taginfo?tagID=22493[eln-build koji page].

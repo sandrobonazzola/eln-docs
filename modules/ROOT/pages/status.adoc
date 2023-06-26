@@ -7,5 +7,5 @@ The table shows the discrepancy between Fedora Rawhide and ELN builds.
 Source: https://sgallagh.fedorapeople.org/dbs_status.html
 
 ++++
-<iframe src="https://sgallagh.fedorapeople.org/dbs_status.html style="height:400px;width:100%;"></iframe>
+<iframe src="https://sgallagh.fedorapeople.org/dbs_status.html" style="height:400px;width:100%;"></iframe>
 ++++

@@ -13,12 +13,12 @@ See also xref:compose.adoc[Compose].
 
 == Container image
 
-As a part of the compose, we build also container images which are then published to Quay.io image registry under the name `quay.io/fedoraci/fedora:eln-x86_64`.
+As a part of the compose, we build also container images which are then published to Quay.io image registry under the name `quay.io/fedoraci/fedora:eln`.
 
 To run Fedora ELN container use:
 
 ```
-$ podman run -it quay.io/fedoraci/fedora:eln-x86_64
+$ podman run -it quay.io/fedoraci/fedora:eln
 ```
 
 == Mock environment

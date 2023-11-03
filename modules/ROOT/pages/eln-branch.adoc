@@ -6,8 +6,10 @@ the steps for making that happen.
 
 == Step 1: Request Permission
 
-To prevent a large amount of unmaintained ELN branches, the ELN SIG must
-approve each request for a branch.
+To prevent a large amount of unmaintained ELN branches as well as to
+ensure that ELN's automation does not continue to overwrite changes with
+builds from the Rawhide branch, the ELN SIG must approve each request
+for a branch. 
 
 To request permission, create an https://github.com/fedora-eln/eln/issues[ELN Issue].
 

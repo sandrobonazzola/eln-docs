@@ -31,6 +31,16 @@ What are the differences between Rawhide and ELN?::
     differences between the built Rawhide and ELN packages.  Listing all of those differences
     is beyond the scope of this document.
     
+What packaging guidelines does ELN follow?::
+
+    Unless otherwise specified in this document, Fedora ELN is required to follow all published
+    Fedora Packaging Guidelines. One common divergence is with the use of bundled dependencies.
+    In general, Fedora packaging recommends that all packages unbundle their dependencies into
+    separate packages. However, in some instances this can result in a single package requiring
+    many (dozens or hundreds) of additional packages. Because of legal restrictions on Red Hat
+    Enterprise Linux placed on it for distribution in major markets, it is preferred that such
+    cases are instead packaged singly.
+
 What are the differences between the Rawhide and ELN kernel?::
 
     Kernel is one of the packages that uses %if fedora conditionals extensively. While the source

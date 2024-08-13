@@ -9,7 +9,7 @@ Fedora Branching happens every 6 months, when Fedora Rawhide branches for the ne
 ** Set the `configuration.control.pause` value in the ELNBuildSync https://gitlab.com/redhat/centos-stream/ci-cd/distrosync/distrobuildsync-config/-/blob/main/distrobaker.yaml[distrobaker.yaml] to `true`
 . Update `rpm.macro.eln` for the `eln-build` Koji tag with the next available number.footnote:elntag[Current settings are visible on the https://koji.fedoraproject.org/koji/taginfo?tagID=22493[eln-build koji page]] For example, if the current value is 141
 
- $ koji edit-tag eln-build rpm.macro.eln 142
+ $ koji edit-tag eln-build -x rpm.macro.eln=142
 
 . Wait for the Fedora ELN Buildroot to regenerate
 

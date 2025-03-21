@@ -3,11 +3,11 @@
 This repository contains documentation related to Fedora ELN project.
 It is published via Fedora Docs:
 
-* https://docs.fedoraproject.org/en-US/eln/
+* <https://docs.fedoraproject.org/en-US/eln/>
 
 ## Structure
 
-```
+```text
 |-- README.md
 |-- antora.yml ....................... 1.
 |-- build.sh ......................... 2.
@@ -44,24 +44,24 @@ It is published via Fedora Docs:
 
 ### Install Podman
 
-```
-$ sudo dnf install podman
+```bash
+sudo dnf install podman
 ```
 
 ### Build
 
-```
-$ ./build.sh
+```bash
+./build.sh
 
 ```
 
 ### Run the preview
 
-```
-$ ./preview.sh
+```bash
+./preview.sh
 ```
 
-The result will be available at http://localhost:8080
+The result will be available at <http://localhost:8080>
 
 When using Linux, it is also possible to pass `--refresh` argument to automatically
 rebuild the documentation on source change.

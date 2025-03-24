@@ -2,10 +2,10 @@
 
 ELN-Extras is essentially an extension of Fedora ELN, with the primary
 difference being that the content in ELN-Extras will be defined by the
-Fedora/EPEL community, while ELN's content is largely decided upon by
+Fedora EPEL community, while ELN's content is largely decided upon by
 Red Hat management. This will offer users the opportunity to make sure
-their applications will work on upcoming releases of RHEL as well as
-providing a bootstrapping mechanism for EPEL. It will be far easier
+their applications will work on upcoming releases of RHEL and
+provides a bootstrapping mechanism for EPEL. It will be far easier
 and quicker to get a compose of EPEL N+1 out the door if the initial
 packages have already been built for ELN-Extras.
 
@@ -26,7 +26,7 @@ You add binary packages by creating and submitting workloads for
 https://github.com/minimization/content-resolver#readme[Content Resolver].
 You submit them as pull requests at
 https://github.com/minimization/content-resolver-input[content resolver input].
-The workloads go in the config directory.
+The workloads go in the `configs` directory.
 
 Once the workloads have been merged, Content Resolver works through
 all the dependencies of the workload, subtracts those packages that are
@@ -38,31 +38,31 @@ list and adds it to the ELN Extras build list.
 
 === Workloads
 
-The full documentation on what goes in a workload yaml file can be found  as comments in the
+The full documentation on what goes in a workload YAML file can be found  as comments in the
 https://github.com/minimization/content-resolver/blob/master/config_specs/workload.yaml[example workload yaml file].
 
-The create your initial workload yaml file, take that example yaml file, rename it,
+The create your initial workload YAML file, take that example YAML file, rename it,
 edit it, then submit it as a pull request.
 
-The example workload yaml has an example for everything. But we don't need everything
+The example workload YAML has an example for everything. But we don't need everything
 for ELN Extras.
 
 ==== Workload Required Sections
 
-* document: feedback-pipeline-workload
+* `document: feedback-pipeline-workload`
 ** This exact line, do not change it
-* version: 1
+* `version: 1`
 ** This exact line, do not change it
-* name: <workload name>
+* `name: <workload name>`
 ** Keep this short, spaces are allowed
-* description: <workload description>
+* `description: <workload description>`
 ** Longer description, but must be on one line
-* maintainer: <FAS and/or Github ID>
+* `maintainer: <FAS or GitHub ID>`
 ** Who will be the maintainer of the packages in this workload for ELN and EPEL.
-** Do not put someone elses name as maintainer without their permission.
-* labels: eln-extras
+** Do not put someone else name as maintainer without their permission.
+* `labels: eln-extras`
 ** Although multiple labels can be listed, for eln-extras, only list the one
-* packages:
+* `packages:`
 ** List of binary packages in the workgroup
 ** DO NOT LIST SOURCE PACKAGE NAMES IN PACKAGES LIST.
 ** LIST ALL THE BINARY PACKAGES YOU NEED.
@@ -70,20 +70,20 @@ for ELN Extras.
 
 ==== Workload Optional Sections
 
-* arch_packages:
-** If you have a package that is not built on all arches, you need to list it on all the arches it it built on.
-** All noarch packages go in the regular package: section.
+* `arch_packages`:
+** If you have a package that is not built on all arches, you need to list it on all the arches it is built on.
+** All `noarch` packages go in the regular package: section.
 * options:
 ** If you need to use the options, you can.
 
 ==== Workload Unused Sections
 
-* modules_disable:
+* `modules_disable`:
 ** We do not have modules in ELN Extras
-* groups:
+* `groups`:
 ** We do not have groups in ELN Extras
-* package_placeholders:
-** We do not process package_placeholders in ELN Extras
+* `package_placeholders`:
+** We do not process `package_placeholders` in ELN Extras
 
 === ELN-only packages
 :link-epel-packages: https://docs.fedoraproject.org/en-US/epel/epel-faq/#rhel_8_has_binaries_in_the_release_but_is_missing_some_corresponding__devel_package._how_do_i_build_a_package_that_needs_that_missing__devel_package
@@ -100,7 +100,7 @@ which are often used to provide subpackages that have been unshipped or otherwis
 
 == ELN Extras Frequently Asked Questions
 
-Can I add any or all Fedora packages to ELN-Extras?::
+Is it possible to add any or all Fedora packages to ELN-Extras?::
 
     You are attaching your name as the supporter of these packages.
     You will be submitting these workload packages as pull requests.
@@ -111,7 +111,7 @@ Can I add any or all Fedora packages to ELN-Extras?::
     you can add to ELN Extras, the SIG is reviewing them and will
     not merge requests that seem excessive for the person requesting them.
 
-If someone has already added a package to their workload, can I have the same package in mine?::
+Is it possible to have the same package listed in different workload with different maintainer?::
 
 Yes. Content Resolver is setup to deal with a package in more than
 one workload, or a dependency in more than one workload. It will show what

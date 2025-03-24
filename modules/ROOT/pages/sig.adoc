@@ -3,7 +3,7 @@
 ELN SIG is a Fedora Special Interest Group which is responsible for the ELN
 project and its infrastructure.
 
-The official SIG membership list is maintained as part of our Github Organization and can be viewed https://github.com/orgs/fedora-eln/people[here].
+The official SIG membership list is maintained as part of our GitHub Organization and can be viewed https://github.com/orgs/fedora-eln/people[here].
 
 == Responsibilities
 
@@ -48,6 +48,6 @@ The meeting agenda will generally be prepared in advance by opening tickets on t
 
 == How to Join
 
-Anyone may join the SIG by asking to become a member. If no existing SIG member *opposes* that request within a week, they're in. If an existing SIG member opposes, we will hold a regular vote at the next scheduled meeting as described above.
+Anyone can join the SIG by asking to become a member. If no existing SIG member *opposes* that request within a week, they're in. If an existing SIG member opposes, we will hold a regular vote at the next scheduled meeting as described above.
 
-Prospective members may ask to join by filing a "New Member Request" ticket on the https://github.com/fedora-eln/eln/issues/new/choose[issue tracker].
+Prospective members can ask to join by filing a "New Member Request" ticket on the https://github.com/fedora-eln/eln/issues/new/choose[issue tracker].

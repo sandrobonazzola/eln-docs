@@ -31,14 +31,14 @@ It is published via Fedora Docs:
 ```
 
 1. Metadata definition.
-2. A script that does a local build. Uses docker or podman.
-3. A script that shows a preview of the site in a web browser by running a local web server. Uses docker or podman.
+2. A script that does a local build. Uses docker or Podman.
+3. A script that shows a preview of the site in a web browser by running a local web server. Uses docker or Podman.
 4. A definition file for the build script.
 5. A "root module of this documentation component".
 6. **Images** to be used on any page.
 7. **Downloadable attachments** to be used on any page.
 8. **Menu definition.** Also defines the hierarchy of all the pages.
-9. **Pages with the actual content.** They can be also organized into subdirectories if desired.
+9. **Pages with the actual content.** They can be also organized into subdirectories if needed.
 
 ## Local preview
 

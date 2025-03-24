@@ -41,16 +41,16 @@ https://docs.fedoraproject.org/en-US/infra/sysadmin_guide/sshaccess/#_ssh_config
 3. Edit the file ``/etc/cron.d/eln``, copying the line containing
    ``eln-nightly.sh`` to a new line and modifying the cron syntax to start the
    compose two minutes in the future. For example, if the current time is
-   1520 UTC, you would set the cron configuration to ``22 15 * * *``.
+   1520 UTC, you would set the ``cron`` configuration to ``22 15 * * *``.
 4. Wait for the compose to start, verifying that it did so with
    ``ps -ef|grep pungi-koji``
 5. Remove the additional entry in ``/etc/cron.d/eln`` so that it does not
    continue to trigger at the same time each day.
 6. (Optional) Monitor the overall compose progress with
-   ``tail -f /mnt/koji/compose/eln/<compose_id>/logs/global/pungi.global.log``
 
-[NOTE]
-Normally, the ELN compose will only be synced to the mirror list the first
-time that a compose succeeds for that day. In rare situations, this may need
+    tail -f /mnt/koji/compose/eln/<compose_id>/logs/global/pungi.global.log
+
+NOTE: Normally, the ELN compose will only be synced to the mirror list the first
+time that a compose succeeds for that day. In rare situations, this might need
 to be overridden. In this case, you will need to modify the command used to
 launch the compose to include a ``-f`` argument to ``eln-nightly.sh``.

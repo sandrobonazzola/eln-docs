@@ -6,14 +6,14 @@ the steps for making that happen.
 
 == Step 1: Request Permission
 
-To prevent a large amount of unmaintained ELN branches as well as to
+To prevent a large amount of unmaintained ELN branches and to
 ensure that ELN's automation does not continue to overwrite changes with
 builds from the Rawhide branch, the ELN SIG must approve each request
 for a branch.
 
 To request permission, create an https://github.com/fedora-eln/eln/issues[ELN Issue].
 
-Be sure to include why you need an eln branch, as well as who will be
+Be sure to include why you need an eln branch and who will be
 maintaining the eln branch.
 
 == Step 2: Create Branch
@@ -33,7 +33,7 @@ If you are not a Fedora maintainer for the package then you need to ask
 one of the Fedora maintainers to create an ELN branch.
 
 If you want to follow the formal route for requesting a branch, then
-open a bugzilla ticket for the package.
+open a Bugzilla ticket for the package.
 
 [NOTE]
 .Bugzilla fields for an ELN branch request (alternative)

@@ -10,7 +10,7 @@ compose. Feedback from this build, compose and integration testing will be
 provided to Fedora packagers so that they can see the potential impact of their
 changes on RHEL development.
 
-ELN allows us to explore new ideas like a higher baseline for CPU
+ELN allows us to explore new ideas such as a higher baseline for CPU
 architectures in a way that will not disrupt the rest of Fedora. It also
 aids us in future-proofing some of the spec file conditionals today that assume
 RHEL &leq; 8.
@@ -24,13 +24,13 @@ If you are trying to resolve an ELN build failure, xref:ftbfs.adoc[start here].
 
 == Purpose
 
-* Create infrastructure and tooling, which allows experiments with the build
+* Create infrastructure and tools, which allows experiments with the build
   process of Fedora distribution.
 
 * Use this infrastructure to build Fedora packages in the way which resembles
   the CentOS and RHEL process and provide feedback loop for Fedora maintainers.
 
-* Some other features (like CPU update) can be incorporated into the same build
+* Some other features (such as CPU update) can be incorporated into the same build
   process if they can be tested in parallel. New feature requests will be
   approved by ELN SIG under general supervision of FESCo and Fedora Council.
 
@@ -39,12 +39,12 @@ If you are trying to resolve an ELN build failure, xref:ftbfs.adoc[start here].
 Originally the project was named EL Niño.
 
 The name of the project was suggested by Stephen Gallagher. It contains
-"enterprisy" reference but also highlights the fact that it is a place for
+"Enterprise Linux" reference but also highlights the fact that it is a place for
 permanent work in progress for experimenting and development, rather than a
 finished product.
 
 But the interpretation of the name evolved, and now you can think about it as
-*Enterprise Linux Next* if you like.
+*Enterprise Linux Next* if you prefer.
 
 === Explanation of the puns
 
@@ -67,7 +67,7 @@ into the shippable artifact.
 
 This includes:
 
-* buildroot configuration, rpm macro and compile flags,
+* buildroot configuration, RPM macro and compile flags,
 
 * comps files and the compose content,
 
@@ -90,8 +90,8 @@ Who benefits from the ELN project:
 * Fedora Community
 ** The feedback pipelines build for the project will allow downstream developers
    to open up their work and bring it closer to Fedora.
-**
-** The tooling developed for this project will allow development of the changes
+
+** The tools developed for this project will allow development of the changes
    in Fedora Infrastructure without blocking the regular Fedora packaging and
    release process.
 

@@ -3,7 +3,9 @@ buildroot
 centos
 deliverables
 eln
+EPEL
 ELN
+ELN Extras
 rhel
 RHEL
 CentOS

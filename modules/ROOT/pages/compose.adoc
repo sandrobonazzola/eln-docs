@@ -5,13 +5,13 @@
 The Fedora ELN compose is built using the
 https://docs.pagure.org/pungi/[Pungi] compose tool.
 
-The compose is run automatically four times per day, at 0300, 1500, 1800 and
+The compose runs automatically four times per day, at 0300, 1500, 1800 and
 2100 UTC, though only the first successful compose each day is normally synced
 to the mirrors. The https://tiny.distro.builders/[Content Resolver] uses each
-of the composes for input processing to maintain an accurate view of the state
-of ELN throughout the day. The additional composes also serve to provide an
-early-warning system of trouble so it can be addressed before the next day's
-synced compose.
+of the composes for input processing to keep an accurate view of the state
+of ELN throughout the day. The additional composes also serve to offer an
+early-warning system of trouble so developers can fix reported issues before
+the next day's synced compose.
 
 
 == Compose configuration files ==
@@ -26,7 +26,7 @@ https://pagure.io/fedora-comps repository.
 == Generating the Fedora ELN compose ==
 
 Members of the
-https://accounts.fedoraproject.org/group/sysadmin-eln/[sysadmin-eln] FAS group
+https://accounts.fedoraproject.org/group/sysadmin-eln/[sysadmin-eln] Fedora Accounts (FAS) group
 can manually generate a Fedora ELN compose by logging into the compose host
 and performing the following steps:
 
@@ -46,11 +46,11 @@ https://docs.fedoraproject.org/en-US/infra/sysadmin_guide/sshaccess/#_ssh_config
    ``ps -ef|grep pungi-koji``
 5. Remove the additional entry in ``/etc/cron.d/eln`` so that it does not
    continue to trigger at the same time each day.
-6. (Optional) Monitor the overall compose progress with
+6. (Optional) watch the overall compose progress with
 
     tail -f /mnt/koji/compose/eln/<compose_id>/logs/global/pungi.global.log
 
-NOTE: Normally, the ELN compose will only be synced to the mirror list the first
+NOTE: Normally, the ELN compose will only sync to the mirror list the first
 time that a compose succeeds for that day. In rare situations, this might need
-to be overridden. In this case, you will need to modify the command used to
+to be overridden. In this case, you will need to change the command used to
 launch the compose to include a ``-f`` argument to ``eln-nightly.sh``.

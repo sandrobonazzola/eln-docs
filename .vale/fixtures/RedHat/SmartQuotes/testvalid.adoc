@@ -1,5 +1,0 @@
-"Looks good"
-"this is fine"
-Jim's hair is black
-`fine()`
-He's good to go.

@@ -1,2 +1,0 @@
-//Correct usage of link text in links
-link:https://docs.aws.amazon.com/[AWS documentation]

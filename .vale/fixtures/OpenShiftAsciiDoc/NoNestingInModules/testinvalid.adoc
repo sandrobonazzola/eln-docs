@@ -1,5 +1,0 @@
-//vale-fixture
-include::modules/rosa-getting-started-deleting-a-cluster.adoc[leveloffset=+1]
-
-//vale-fixture
-include::rosa-getting-started-deleting-a-cluster.adoc[leveloffset=+1]
